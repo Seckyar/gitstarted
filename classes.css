@@ -1,0 +1,168 @@
+body{
+  
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  min-width: 900px;
+}
+
+.Page{
+  height: 240px;
+  background-size: cover;
+  padding: 0 7%;
+}
+
+.Page h1{
+  font-size: 5rem;
+  color: white;
+  margin-top: 10px;
+  
+}
+
+.Page p {
+  
+  font-size: 1.2rem;
+  color: white;
+}
+
+.Page p span{
+  font-weight: bold;
+  color: white;
+}
+
+.Page_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:10px 7%;
+}
+
+.text1 p{
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  padding: 30px;
+  padding-left: 0;
+}
+
+.text2 p{
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  padding: 30px;
+  padding-right: 0;
+}
+
+.firstImg{
+  background-size: cover;
+  margin: 30px;
+  margin-right: 0;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.secondImg{
+  background-size: cover;
+  margin: 30px;
+  margin-left: 0;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.button{
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 7%;
+  min-width: 500px;
+  text-align: center;
+}
+
+.button a button{
+  text-align: center;
+  border: 3px solid #008181;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button a button:hover{
+  background-color: #008181;
+  color: white;
+  box-shadow:4px 6px 0px 0px rgb(0, 0, 0,0.3);
+}
+
+.button a{
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.button a:hover{
+  color: #008181;
+  text-decoration: underline;
+}
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
+}
+
+.cardiohead{
+  background-image: url(photo/cardiodark.jpg);
+  background-position: 0 -150px;
+}
+.cardiophoto1{
+  background-image: url(photo/cardio1.jpg);
+}
+.cardiophoto2{
+  background-image: url(photo/cardio2.jpg);
+  background-position:-150px 0;
+}
+
+.strengthhead{
+  background-image: url(photo/strengthdark.jpg);
+  background-position: 0 -280px;
+}
+.strengthphoto1{
+  background-image: url(photo/strength1.jpg);
+  background-position:-150px 0;
+}
+.strengthphoto2{
+  background-image: url(photo/strength2.jpg);
+  background-position: -100px ;
+}
+
+.yogahead{
+  background-image: url(photo/yogadark.jpg);
+  background-position: 0 -250px;
+}
+.yogaphoto1{
+  background-image: url(photo/yoga1.jpg);
+}
+.yogaphoto2{
+  background-image: url(photo/yoga2.jpg);
+  background-position: -150px;
+}
+
+.hiithead{
+  background-image: url(photo/hiitdark.jpg);
+  background-position: 0 -500px;
+}
+.hiitphoto1{
+  background-image: url(photo/hiit1.jpg);
+}
+.hiitphoto2{
+  background-image: url(photo/hiit2.jpg);
+}

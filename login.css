@@ -1,0 +1,78 @@
+body{
+    background:linear-gradient(to left,#d3ffff,#155e66);
+}
+
+form { 
+    background-color: white;
+    padding: 40px; 
+    height: 100%;
+    width: 50%;
+    min-width: 450px;
+    margin: 3% auto;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+form:hover{
+    box-shadow:8px 10px 0px 0px rgb(0, 0, 0,0.3);
+}
+
+#signup{ 
+    background-color: white;
+    padding: 40px; 
+    height: 500px;
+    width: 50%;
+    min-width: 450px;
+    margin: 3% auto;
+    border-radius: 50px;
+}
+form h1{
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+form h3{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+input{ 
+    height: 40px;
+    width: 300px;
+    display: block; 
+    margin: 30px auto 20px auto;
+    padding: 5px 30px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    border: 2px solid #0c373c;
+}
+
+#confirmbutton{
+    font-weight: bold;
+    background-color: #0c373c;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#confirmbutton:hover{
+    background-color: #008181;
+    border: none;
+    box-shadow:4px 6px 0px 0px rgb(0, 0, 0,0.3);
+}
+
+#confirmbutton:active{
+    opacity: 0.6;
+}
+form a
+{
+    text-decoration: none;
+    transition: all 0.3s;
+}
+form #forget,#signin{
+    text-align: center;
+}
+
+form a:hover{
+    text-decoration: underline;
+}
